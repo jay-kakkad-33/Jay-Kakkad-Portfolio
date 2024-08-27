@@ -13,9 +13,9 @@ const ContactSection = () => {
         <span className='text-xl md:text-2xl m-2' >Make something together</span>
         <h3 className='text-2xl md:text-4xl my-10 font-light' >You can follow me on :</h3>
         <div id='social' className='flex'>
-          <Link href='https://www.linkedin.com/in/jay--kakkad' className='w-full'><Image src='/images/linkedin.png' width={500} height={500} className='p-5 md:p-12 hover:scale-[1.1] transition-all duration-200'/></Link>
-          <Link href='https://www.github.com/jay-kakkad-33' className='w-full'><Image src='/images/github1.png' width={500} height={500} className='p-5 md:p-12 hover:scale-[1.1] transition-all duration-200'/></Link>
-          <Link href='https://www.instagram.com/_jay._.kakkad' className='w-full'><Image src='/images/instagram.png' width={500} height={500} className='invert p-5 md:p-12 hover:scale-[1.1] transition-all duration-200'/></Link>
+          <Link href='https://www.linkedin.com/in/jay--kakkad' className='w-full'><Image src='./images/linkedin.png' width={500} height={500} className='p-5 md:p-12 hover:scale-[1.1] transition-all duration-200'/></Link>
+          <Link href='https://www.github.com/jay-kakkad-33' className='w-full'><Image src='./images/github1.png' width={500} height={500} className='p-5 md:p-12 hover:scale-[1.1] transition-all duration-200'/></Link>
+          <Link href='https://www.instagram.com/_jay._.kakkad' className='w-full'><Image src='./images/instagram.png' width={500} height={500} className='invert p-5 md:p-12 hover:scale-[1.1] transition-all duration-200'/></Link>
         </div>
         <Link href='https://drive.google.com/file/d/1jk20YqzqwNWcaZF6i4WVDJUCarwh2sKA/view?usp=sharing' title='Download Resume' className='text-2xl md:text-4xl font-light border rounded-full p-2 flex gap-5 justify-center items-center hover:bg-white hover:text-[#282148] transition-all duration-200'>Resume<ArrowDownTrayIcon className='w-7 md:w-9' /> </Link>
       </div>
