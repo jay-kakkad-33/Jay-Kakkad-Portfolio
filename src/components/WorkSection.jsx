@@ -24,7 +24,7 @@ const categories = [
 const workList =[
   {
       id:1,
-      path:'//images/WebsiteMockup.png',
+      path:'/public/images/WebsiteMockup.png',
       projectName:'SJLVB Hostel Website',
       description:'SJLVB is a website for hostel which shows hostel amenities and there\'s an admission form. Students can fillup the form to apply for admission and there\'s an admin panel from where hostel management can decide to accept or reject the application. ',
       category:'Web',
