@@ -26,7 +26,7 @@ const NavBar = () => {
     const [navBarHidden,hideNavBar] = useState('-translate-y-full');
   return (
     <div className='w-full flex justify-between px-5 items-center fixed left-0 z-10'>
-        <Link href='/'><Image src='/Images/JK.png' alt='Logo' height={500} width={500} className='w-20' /></Link>
+        <Link href='/'><Image src='//Images/JK.png' alt='Logo' height={500} width={500} className='w-20' /></Link>
         <ul className='hidden md:flex gap-4'>
             {
                 navLinks.map((link,index)=>{
