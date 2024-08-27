@@ -44,7 +44,7 @@ const workList =[
   },
   {
       id:3,
-      path:'./images/Gamezy.png',
+      path:'.//images/Gamezy.png',
       projectName:'Gamezy - A Mini games website',
       description:'Gamezy is a web application built with PHP as a backend. On this website user can register and play mini games in their free time. They can see gamewise leaderboard and their high scores also when they played the game last.',
       category:'Web',
@@ -54,7 +54,7 @@ const workList =[
   },
   {
       id:4,
-      path:'./images/Renamer.png',
+      path:'.//public/images/Renamer.png',
       projectName:'Multiple file renamer',
       description:'Multiple file renamer is a minimal desktop applciation made with python\'s tkinter and os modules. Using this application you can name multiple files with similar prefixes. Example: You have many images in you wallpapers with some weired names so you can select that folder and then give a name i.e. Wallpaper this application rename all the images names as Wallpaper 1, Wallpaper 2... for all the images.',
       category:'Python',
@@ -64,7 +64,7 @@ const workList =[
   },
   {
       id:5,
-      path:'./images/Codepad.png',
+      path:'//images/Codepad.png',
       projectName:'Codepad',
       description:'Codepad is a simple text editor made with python with a bit of advancement than regular notepad. It has extra freatures than a normal notepad like: 1.Theme, 2.Run it has some theme options and can run python and html files.',
       category:'Python',
@@ -74,7 +74,7 @@ const workList =[
   },
   {
       id:6,
-      path:'./images/Calculator.png',
+      path:'//public/images/Calculator.png',
       projectName:'Calculator (History feature)',
       description:'A Calculator desktop app made with python. It has history feature like windows\' calculator has. User can directly take that history to main display. It has a feature which shows the current battery percentage of the device.',
       category:'Python',
