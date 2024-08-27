@@ -13,7 +13,7 @@ const WorkCard = ({path,projectName,category,description,codeLink,liveLink}) => 
           <button onClick={()=>{
             hideInfo('hidden')
           }} ><XMarkIcon className='w-5 absolute top-2 left-2' /></button> 
-          <p>{description}</p>
+          <p className='w-full text-wrap'>{description}</p>
         </div>
         <div className='absolute bottom-0 left-0 hidden group-hover:flex justify-end flex-col p-2 bg-black w-full h-full bg-opacity-25'>
             <div className='mx-auto flex gap-2'>
