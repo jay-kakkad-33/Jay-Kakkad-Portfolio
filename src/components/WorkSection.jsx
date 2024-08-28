@@ -24,7 +24,7 @@ const categories = [
 const workList =[
   {
       id:1,
-      path:'./public/images/WebsiteMockup.png',
+      path:'/images/WebsiteMockup.png',
       projectName:'SJLVB Hostel Website',
       description:'SJLVB is a website for hostel which shows hostel amenities and there\'s an admission form. Students can fillup the form to apply for admission and there\'s an admin panel from where hostel management can decide to accept or reject the application. ',
       category:'Web',
@@ -34,7 +34,7 @@ const workList =[
   },
   {
       id:2,
-      path:'./images/GDCST.png',
+      path:'/images/GDCST.png',
       projectName:'GDCST College App',
       description:'GDCST is an Android App developed for an academic department. There are 3 types of users in this app 1:Office, 2:Teachers, 3:Students. office users can creare teachers and students accounts for this app and also they can post notifications for all the users. Teachers can upload study materials which students can download and also teachers can post notifications. Students can see information about the institution and can download study materials which was uploaded by the teachers. All users can see their profiles and can change their passwords.',
       category:'Android',
@@ -44,7 +44,7 @@ const workList =[
   },
   {
       id:3,
-      path:'./images/Gamezy.png',
+      path:'/images/Gamezy.png',
       projectName:'Gamezy - A Mini games website',
       description:'Gamezy is a web application built with PHP as a backend. On this website user can register and play mini games in their free time. They can see gamewise leaderboard and their high scores also when they played the game last.',
       category:'Web',
@@ -54,7 +54,7 @@ const workList =[
   },
   {
       id:4,
-      path:'./images/Renamer.png',
+      path:'/images/Renamer.png',
       projectName:'Multiple file renamer',
       description:'Multiple file renamer is a minimal desktop applciation made with python\'s tkinter and os modules. Using this application you can name multiple files with similar prefixes. Example: You have many images in you wallpapers with some weired names so you can select that folder and then give a name i.e. Wallpaper this application rename all the images names as Wallpaper 1, Wallpaper 2... for all the images.',
       category:'Python',
@@ -64,7 +64,7 @@ const workList =[
   },
   {
       id:5,
-      path:'./images/Codepad.png',
+      path:'/images/Codepad.png',
       projectName:'Codepad',
       description:'Codepad is a simple text editor made with python with a bit of advancement than regular notepad. It has extra freatures than a normal notepad like: 1.Theme, 2.Run it has some theme options and can run python and html files.',
       category:'Python',
@@ -74,7 +74,7 @@ const workList =[
   },
   {
       id:6,
-      path:'./images/Calculator.png',
+      path:'/images/Calculator.png',
       projectName:'Calculator (History feature)',
       description:'A Calculator desktop app made with python. It has history feature like windows\' calculator has. User can directly take that history to main display. It has a feature which shows the current battery percentage of the device.',
       category:'Python',
@@ -107,7 +107,7 @@ const WorkSection = () => {
             })
         }
     </div>
-    <Link href='https://github.com/jay-kakkad-33' className='border p-2 rounded-full w-fit flex justify-center items-center gap-3 mx-auto hover:scale-[1.1] transition-all duration-200 hover:shadow-md'><Image src='./images/github.png' width={500} height={500} className='invert w-10' /> Visit my GitHub <ArrowLongRightIcon className='w-10 h-10' /></Link>
+    <Link href='https://github.com/jay-kakkad-33' className='border p-2 rounded-full w-fit flex justify-center items-center gap-3 mx-auto hover:scale-[1.1] transition-all duration-200 hover:shadow-md'><Image src='/images/github.png' width={500} height={500} className='invert w-10' /> Visit my GitHub <ArrowLongRightIcon className='w-10 h-10' /></Link>
 </section>
   )
 }
